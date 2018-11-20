@@ -38,9 +38,7 @@ h2{
     color: white;
 }
 
-section{
-    display: flex;
-}
+
 
 /*Header section*/
 
@@ -91,6 +89,27 @@ nav span{
     justify-content: flex-end;
 }
 
+
 /*Main section*/
+
+section{
+    display: flex;
+}
+
+.value-proposition{
+    margin: 3rem;
+    justify-content: center;
+}
+
+.item{
+    height: 8rem;
+    width: 5rem;
+    margin: auto 6rem;
+}
+
+.legend{
+    width: 3rem;
+    /*text-align: center;*/
+}
 
 /*Footer section*/
