@@ -8,6 +8,12 @@ body{
     line-height: 1.4;
 }
 
+@media only screen and (max-width: 640px){
+    body{
+        font-size: 0.77rem;
+    }
+}
+
 h1,
 h2{
     text-transform: uppercase;
@@ -22,6 +28,12 @@ h1{
 @media only screen and (max-width: 1024px){
     h1{
         font-size: 1.33rem;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    h1{
+        font-size: 1rem;
     }
 }
 
@@ -62,6 +74,13 @@ header{
     }
 }
 
+@media only screen and (max-width: 640px){
+    header{
+        background-position: 20%;
+        height: 17rem;
+    }
+}
+
 .banner{
     display: flex;
 }
@@ -81,6 +100,12 @@ header{
     }
 }
 
+@media only screen and (max-width: 640px){
+    #top{
+        margin: 0 auto 9rem auto;
+    }
+}
+
 .identity{
     display: flex;
 }
@@ -91,6 +116,12 @@ header{
     padding-right: 1rem;
 }
 
+@media only screen and (max-width: 640px){
+    .title{
+        display: none;
+    }
+}
+
 nav{
     display: flex;
     padding-right: 1rem;
@@ -98,6 +129,20 @@ nav{
 
 nav span{
     padding: 1rem 1rem;
+}
+
+.menu{
+    display: none;
+}
+
+@media only screen and (max-width: 640px){
+    .menu{
+        display: block;
+    }
+
+    .list{
+        display: none;
+    }
 }
 
 #main{
@@ -120,11 +165,25 @@ h1{
     }
 }
 
+@media only screen and (max-width: 640px){
+    h1{
+        padding: 1rem auto;
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+}
 
 /*Main section*/
 
 section{
     display: flex;
+}
+
+@media only screen and (max-width: 640px){
+    section{
+        display: block;
+    }
 }
 
     /*Value-proposition section*/
@@ -133,9 +192,21 @@ section{
     justify-content: center;
 }
 
+@media only screen and (max-width: 640px){
+    .value-proposition{
+        margin: 3.77rem;
+    }
+}
+
 .item{
     max-height: 8rem;
     margin: auto 6rem;
+}
+
+@media only screen and (max-width: 640px){
+    .item{
+        margin: 1.54rem auto;
+    }
 }
 
 .paper{
@@ -153,6 +224,19 @@ section{
     margin-top: 3rem;
     margin-right: 5%;
     margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 640px){
+    .info-block{
+        width: 100%;
+        margin-top: 3.77rem;
+        margin-bottom: 4rem;
+        margin-right: 0rem;
+    }
+
+    .box{
+        width: 100%;
+    }
 }
 
 .info-block p{
