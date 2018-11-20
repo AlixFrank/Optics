@@ -6,6 +6,7 @@ html{
 body{
     font-family: Helvetica;
     line-height: 1.4;
+    background-color: azure;
 }
 
 h1,
@@ -26,10 +27,7 @@ h2{
 .container{
     max-width: 960px;
     margin: 0 auto;
-    display: block;
-}
-
-.flex{
+    /*display: block;*/
     /*display: flex;*/
 }
 
@@ -48,45 +46,44 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;
-    /*display: flex;*/
 }
 
-.logo img{
+.banner{
+    display: flex;
+}
+
+#top{
+    margin: 1rem auto 10rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.identity{
+    display: flex;
+}
+
+.identity img{
     height: 1.5rem;
     padding-left: 2rem;
     padding-right: 1rem;
 }
 
-.banner{
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.identity{
-    display: flex;
-    align-content: center;
-}
-
-#top{
-    margin: 1rem auto 10rem auto;
-    width: 100%;
-}
-
-
 nav{
+    display: flex;
     padding-right: 1rem;
-    justify-content:flex-end;
 }
 
 nav span{
     padding: 1rem 1rem;
 }
 
+#main{
+    justify-content: flex-end;
+}
+
 #main h1{
     background-color: white;
     padding: 1.5rem 5rem;
-    justify-content: flex-end;
 }
 
 
@@ -96,6 +93,7 @@ section{
     display: flex;
 }
 
+    /*Value-proposition section*/
 .value-proposition{
     margin: 3rem;
     justify-content: center;
@@ -109,7 +107,23 @@ section{
 
 .legend{
     width: 3rem;
-    /*text-align: center;*/
 }
+
+    /* Information section*/
+.information{
+    margin: 6rem;
+    /*width: 100%;*/
+}
+
+.info-block{
+    width: 35%;
+    margin: 5%;
+}
+
+.box{
+    width: 10rem;
+    padding: 0.5rem auto 0.5rem 1.25rem;
+}
+
 
 /*Footer section*/
