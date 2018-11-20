@@ -49,9 +49,11 @@ header{
 }
 
 #top{
-    margin: 1rem auto 10rem auto;
+    margin: 0 auto 10rem auto;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: 1rem;
 }
 
 .identity{
@@ -114,6 +116,7 @@ section{
     /* Information section*/
 .info-block{
     width: 35%;
+    margin-top: 3rem;
     margin-right: 5%;
     margin-bottom: 5rem;
 }
